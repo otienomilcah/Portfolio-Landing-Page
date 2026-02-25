@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap-5.1.3-dist/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Portfolio landing page</title>
+    
+</head>
+<body>
+    <!-- the side navigation bar -->
+    <aside>
+        <nav>
+            <img src="images/profile.jpg" alt="otienomilka" />
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            
+            <a href="about.html">
+                <p>About</p>
+            </a>
+        </nav>
+    </aside>
+    <section class="personalinfo">
+        <!--header>
+            <h1>Otieno Milka A.</h1>
+            <h2>Senior Software Engineer in Test | Automation | Performance Testing</h2>
+            <p>
+A Seasoned Software Engineer and Quality Assurance Specialist with over 6+ years of experience delivering, validating, and supporting scalable, secure, and high-performance web applications in banking, fintech, and enterprise environments...
+</p>
+<img src="images/profile.jpg" alt="otienomilka" />
+            
+            
+            
+        </header-->
+      <header>
+      <h1>Otieno Milka A.</h1>
+      <h2>Senior Quality Engineer | Test Automation | Performance & Reliability Engineering</h2>
+
+      <p>
+        Senior Quality Engineer with 6+ years delivering scalable, secure, and high-performance
+        banking and fintech systems. Experienced in API automation, CI/CD quality gates,
+        performance engineering, and cloud-hosted microservices. Proven track record stabilizing
+        environments, improving release reliability, and resolving production issues across
+        enterprise banking platforms.
+      </p>
+
+      <img src="images/profile.jpg" alt="Milka Otieno" />
+
+    <p>
+        <a href="https://github.com/milkaotieno" target="_blank">GitHub</a> |
+        <a href="mailto:anyangomilka1922@gmail.com">Contact Me</a>
+    </p>
+    </header>
+    </section>
+    
+    
+       <!-- This section has list of  the projects -->
+    <section class="project" >
+      <h3>Case Studies</h3>
+     
+      <h4>Enterprise Banking API Automation Framework</h4>
+      <ul>
+        <li>Built reusable automation framework using RestAssured + Java</li>
+        <li>Integrated automated tests into Azure DevOps CI/CD pipelines</li>
+        <li>Reduced regression execution time by 40%</li>
+        <li>Improved API test coverage across microservices</li>
+      </ul>
+
+      <h4>Digital Banking Performance Testing – Trivia Mini App</h4>
+      <ul>
+        <li>Designed load and spike tests using JMeter</li>
+        <li>Simulated 10,000+ concurrent users</li>
+        <li>Identified database bottlenecks and slow APIs</li>
+        <li>Improved transaction response time by 30%</li>
+      </ul>
+
+      <h4>Core Banking System Go-Live – Finacle</h4>
+      <ul>
+        <li>Coordinated UAT and production readiness</li>
+        <li>Validated backend integrations and APIs</li>
+        <li>Managed defect triage during go-live window</li>
+        <li>Supported successful core banking migration</li>
+      </ul>
+</section>
+      <!--p>The list below consists of the projects I have worked on:-</p>
+      <ol>
+          
+          <li>Banking API Automation Framework</li>
+          <li>Trivia Mini App Performance Testing</li>
+          <li>Finacle Core Banking Go-Live</li>
+          <<li>portfolio website-</li>
+          <li>The burger palace website</li>
+          <li>Letuce eat website</li>
+          <li>Pet site</li>
+          <li> myServiser site </li--> 
+      </ol>
+      <!--portfolio website-->
+      <h4>Portfolio Landing page Website</h4>
+      <p>
+        This is  a website that shows my portfolio.It contains all my background information,projects that I have created and and the experience gained.
+         It also contains my hobbies
+      </p>
+      <p>The languages used was HTML,CSS and Javascript.</p>
+      <p>
+        <a href="https://milkaotieno.github.io/Portfolio-Landing-Page/">Click</a> here to view
+        the website.
+      </p>
+      <!--The burger palace website -->
+      <h4>The Burger-Recipe Website</h4>
+      <p>This is a  page that contain The Burger Palace is a simple landing page of a restaurants website 
+          that has information on what the restaurant offers and can deliver to burger lovers..</p>
+      <p>The language used was HTML and CSS.</p>
+      <p>
+        <a href="https://milkaotieno.github.io/The-Burger-Palace-website/">Click here</a> here
+        to view the page.
+      </p>
+       <!-- Letuce eat website-->
+       <h4>Letuce Eat</h4>
+       <p>This is a moringa restraurant's with letuce menu.</p>
+       <p>The language used was HTML and CSS.</p>
+       <p>
+         <a href="https://milkaotieno.github.io/Letuce-Eat/">Click here</a>
+         here to view the page.
+       </p>
+      <!-- Pet site -->
+      <h4>Colmot pet Website</h4>
+      <p>This is a small landing page for Pet.</p>
+      <p>The language used was HTML and CSS.</p>
+      <p>
+        <a href="">Click here</a> here to view
+        the page.
+      </p>
+      
+           <!-- myServiser site -->
+      <h4>Samot-myserviser</h4>
+      <p>This is a page that displays an myserviser services.</p>
+      <p>The language used was HTML.</p>
+      <p>
+        <a href="">Click here</a>
+        here to view the page.
+      </p>
+    </section>
+  </body>
+</html>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+<!--What is in this section---Your name
+An image of you or something that represents who you are
+A list of projects you have created with active links to them (either on GitHub or GitHub pages)
+For each, include a brief description of the project and what languages it uses-->

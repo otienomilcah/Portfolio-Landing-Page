@@ -1,102 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap-5.1.3-dist/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Portfolio landing page</title>
-    
+    <title>Milka Otieno | SDET Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap-5.1.3-dist/index.css">
 </head>
-<body>
-    <!-- the side navigation bar -->
-    <aside>
-        <nav>
-            <img src="images/profile.jpg" alt="otienomilka" />
-            <a href="index.html">
-                <p>Home</p>
-            </a>
-            
-            <a href="about.html">
-                <p>About</p>
-            </a>
-        </nav>
-    </aside>
-    <section class="personalinfo">
-        <header>
-            <h1>Otieno Milka A. || Software Programmer</h1>
-            <img src="images/profile.jpg" alt="otienomilka" />
-            
-            
-        </header>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand" href="#">Milka Otieno</a>
+        <div class="ms-auto">
+            <a class="nav-link d-inline text-white" href="index.html">Home</a>
+            <a class="nav-link d-inline text-white" href="about.html">About</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="container text-center py-5">
+        <img src="images/profile.jpg" class="rounded-circle mb-3" width="150" alt="Milka Otieno">
+
+        <h1 class="fw-bold">Otieno Milka A.</h1>
+        <h4 class="text-primary">
+            Senior Engineer in Test| Test Automation | Performance & Reliability Engineering
+        </h4>
+
+        <p class="mt-3">
+            Senior Quality Engineer with 6+ years delivering scalable, secure, and high-performance
+            banking and fintech systems. Experienced in API automation, CI/CD quality gates,
+            performance engineering, and cloud-hosted microservices.
+        </p>
+
+        <a href="https://github.com/milkaotieno" target="_blank" class="btn btn-dark me-2">GitHub</a>
+        <a href="mailto:anyangomilka1922@gmail.com" class="btn btn-primary">Contact Me</a>
     </section>
-    
-    
-       <!-- This section has list of  the projects -->
-    <section class="project" >
-      <h3>Projects</h3>
-      <p>The list below consists of the projects I have worked on:-</p>
-      <ol>
-          <li>portfolio website-</li>
-          <li>The burger palace website</li>
-          <li>Letuce eat website</li>
-          <li>Pet site</li>
-          <li> myServiser site </li>
-      </ol>
-      <!--portfolio website-->
-      <h4>Portfolio Landing page Website</h4>
-      <p>
-        This is  a website that shows my portfolio.It contains all my background information,projects that I have created and and the experience gained.
-         It also contains my hobbies
-      </p>
-      <p>The languages used was HTML,CSS and Javascript.</p>
-      <p>
-        <a href="https://milkaotieno.github.io/Portfolio-Landing-Page/">Click</a> here to view
-        the website.
-      </p>
-      <!--The burger palace website -->
-      <h4>The Burger-Recipe Website</h4>
-      <p>This is a  page that contain The Burger Palace is a simple landing page of a restaurants website 
-          that has information on what the restaurant offers and can deliver to burger lovers..</p>
-      <p>The language used was HTML and CSS.</p>
-      <p>
-        <a href="https://milkaotieno.github.io/The-Burger-Palace-website/">Click here</a> here
-        to view the page.
-      </p>
-       <!-- Letuce eat website-->
-       <h4>Letuce Eat</h4>
-       <p>This is a moringa restraurant's with letuce menu.</p>
-       <p>The language used was HTML and CSS.</p>
-       <p>
-         <a href="https://milkaotieno.github.io/Letuce-Eat/">Click here</a>
-         here to view the page.
-       </p>
-      <!-- Pet site -->
-      <h4>Colmot pet Website</h4>
-      <p>This is a small landing page for Pet.</p>
-      <p>The language used was HTML and CSS.</p>
-      <p>
-        <a href="">Click here</a> here to view
-        the page.
-      </p>
-      
-           <!-- myServiser site -->
-      <h4>Samot-myserviser</h4>
-      <p>This is a page that displays an myserviser services.</p>
-      <p>The language used was HTML.</p>
-      <p>
-        <a href="">Click here</a>
-        here to view the page.
-      </p>
+
+    <!-- METRICS -->
+    <section class="container text-center py-4">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>6+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="col-md-3">
+                <h3>40%</h3>
+                <p>Regression Reduction</p>
+            </div>
+            <div class="col-md-3">
+                <h3>30%</h3>
+                <p>Performance Improvement</p>
+            </div>
+            <div class="col-md-3">
+                <h3>3+</h3>
+                <p>Core Banking Projects</p>
+            </div>
+        </div>
     </section>
-  </body>
+
+    <!-- CASE STUDIES -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Case Studies</h2>
+
+        <div class="row g-4">
+
+            <!-- PROJECT 1 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Banking API Automation Framework</h5>
+                        <ul>
+                            <li>RestAssured + Java automation framework</li>
+                            <li>Integrated into Azure DevOps CI/CD</li>
+                            <li>Reduced regression time by 40%</li>
+                            <li>Improved API coverage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia Mini App Performance Testing</h5>
+                        <ul>
+                            <li>Load & spike testing using JMeter</li>
+                            <li>Simulated 10,000+ users</li>
+                            <li>Identified DB bottlenecks</li>
+                            <li>Improved response time by 30%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Finacle Core Banking Go-Live</h5>
+                        <ul>
+                            <li>Coordinated UAT & production readiness</li>
+                            <li>Validated backend integrations</li>
+                            <li>Managed defect triage</li>
+                            <li>Supported successful migration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+        © 2026 Milka Otieno | Software Engineer|Seasoned Senior Quality Engineer
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
-<!--What is in this section---Your name
-An image of you or something that represents who you are
-A list of projects you have created with active links to them (either on GitHub or GitHub pages)
-For each, include a brief description of the project and what languages it uses-->
