@@ -1,69 +1,91 @@
-# Portfolio
+## 📌 Table of Contents
 
-## Name of the Author 
-Otieno Milka A. 
+1. [Professional Summary](#-professional-summary)
+2. [Key QA Projects](#-key-qa-projects)
+3. [Why Hire Me](#-why-hire-me)
+4. [Keywords](#-keywords)
 
-![Project Image](/images/project.png)
-### This is a description of my portfolio land page.
+---
 
-## Table of Content
+## 👩🏽‍💻 Professional Summary
 
-+ [Description](#project_description)
-+ [Installation Requirement](#Project_setup_Instructions)
-+ [Technology Used](#technology-used)
-+ [Licence](#licence)
+Senior Software Engineer in Test with 6+ years of experience delivering secure, scalable, and high-performance banking and fintech platforms.
 
+Specialized in:
+- API automation and CI/CD quality integration  
+- Performance and load testing for high-traffic applications  
+- Core banking validation and integration testing  
+- Production support and release stabilization  
 
-## Description
-<p>This is  a website that shows my portfolio.It contains all my background information,projects that I have created and and the experience gained.
-It also contains my hobbies</p>
+Key achievements:
+- Reduced regression testing time by **40%** through automation  
+- Improved system response time by **30%** through performance tuning  
+- Supported successful core banking go-live with **zero critical production defects**  
 
-## Setup Instructions
+Strong cross-functional collaborator working across QA, DevOps, Engineering, and Product teams in Agile environments.
 
-### Requirements
+---
 
-* Either a desktop,computer,phone,tablet or an Ipad
+## 🚀 Key QA Projects
 
-* An access to the Internet
+### 1️⃣ Enterprise Banking API Automation Framework
+**Tools:** Java, RestAssured, Azure DevOps, CI/CD  
 
-## Technology Used
-* HTML - this was used to build the structure of the pages.
+- Built a reusable API automation framework for banking microservices  
+- Integrated automated tests into CI/CD pipelines  
+- Increased API test coverage across services  
+- Reduced regression execution time by **40%**
 
-* CSS - this was used to style the pages.
+---
 
+### 2️⃣ Digital Banking Performance Testing – Trivia Mini App
+**Tools:** JMeter, SQL, Monitoring Dashboards  
 
+- Designed load and spike tests simulating 10,000+ concurrent users  
+- Identified database bottlenecks and slow APIs  
+- Collaborated with developers on performance optimization  
+- Improved application response time by **30%**
 
-### Installation Process
-****
-Click on the link provided bellow to view the site.
-* https://milkaotieno.github.io/Portfolio-Landing-Page/
+---
 
-****
-[Go Back to the top](#portfolio)
+### 3️⃣ Core Banking Migration – Finacle Go-Live
+**Role:** QA Analyst – Integration & UAT  
 
-## Licence
+- Coordinated UAT and production readiness testing  
+- Validated integrations across payment and backend systems  
+- Managed defect triage during go-live window  
+- Achieved smooth migration with **zero major production defects**
 
-MIT License
+---
 
-Copyright (c) [2021] [Otieno Milka]
+## 💼 Why Hire Me
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- 6+ years in Banking & Fintech QA  
+- Strong automation and performance testing expertise  
+- Experience with APIs, microservices, and core banking systems  
+- Proven ability to improve release stability and system reliability  
+- Strong Agile/Scrum collaboration and stakeholder communication  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Open to roles in:
+- Senior QA Engineer  
+- Software Engineer in Test (SDET)  
+- Test Lead / QA Lead  
+- Fintech QA Specialist  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
 
-[Go Back to the top](#portfolio)
+## 🔍 Keywords
 
+Software Quality Assurance Engineer  
+Senior Software Engineer in Test  
+Test Automation Engineer  
+Performance Testing Engineer  
+Banking QA Engineer  
+Fintech QA Specialist  
+API Testing  
+CI/CD Testing  
+JMeter Load Testing  
+Playwright Automation  
+Selenium WebDriver  
+Azure DevOps  
+Core Banking Testing  
