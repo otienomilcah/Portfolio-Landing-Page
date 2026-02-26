@@ -36,7 +36,7 @@ It also contains my hobbies</p>
 ### Installation Process
 ****
 Click on the link provided bellow to view the site.
-* https://milkaotieno.github.io/Portfolio-Landing-Page/
+* https://otienomilcah.github.io/Portfolio-Landing-Page/index.html
 
 ****
 [Go Back to the top](#portfolio)
